@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--seccion jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src = "https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href = "https://code.jquery.com/ui/1.12.1/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+
+    <!--para bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- fuentes -->
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- chosen -->
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.proto.min.js"></script>
+    <link   rel="stylesheet"  href="https://haubek.github.io/dist/css/component-chosen.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.bundle.min.js"></script>
+ 
+    <link rel="stylesheet" href="estilo.css">
+    <title>Mezcal</title>
+  </head>
+  <body>
+      <header>
+        <div class="row">
+            <div class="col-xs-12 col-sm-2">
+                <img src="agave.png" width="200" height="100" alt="logo" >
+            </div>
+            <div class="col-xs-12 col-sm-8 centrado">
+                <h1>Mezcal Artesanal</h1>
+            </div>
+            <div class="col-xs-12 col-sm-2">
+                <img src="agave.png" width="200" height="100" alt="logo" >
+            </div>
+        </div>
+      </header>
+      
+        <br>
+        
+        <table align="center">
+            <tr>
+                <td>Elaboración</td><br>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li><a href="P1.html">Paso 1</a></li><br>
+                        <li><a href="P2.html">Paso 2</a></li><br>
+                        <li><a href="P3.html">Paso 3</a></li><br>
+                        <li><a href="P4.html">Paso 4</a></li><br>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <br>
+        Visita nuestra página de facebook y regalanos un like! <a href="https://www.facebook.com/groups/997729407319630/">Aquí</a><br>
+            <input class="form-control" type="text" placeholder="La información aquí presentada es de acuerdo a como se elabora el mezcal en la comunidad de San Pedro Teozacoalco, Nochixtlán, Oaxaca." readonly >
+            <br>
+            <div class="container h-100">
+                    <div class="row h-100 justify-content-righ">
+                        <h5>Ingrese su nombre</h5>
+                            </div> <!-- End header -->
+                            <!-- Form -->
+                     <form  method="post" accept-charset="utf-8" class="p-3" action="datos.php" >
+                          <label for="name" class="sr-only">Usuario</label>
+                          <input type="text" id="name" name="name"  class="form-control m-2" placeholder="nombre" required autofocus>
+                          <div class="text-center">
+                             <button class="btn btn-custom-primary"  type="submit">Guardar</button>
+                          </div>
+                     </form>
+                     <div class="align-items-righ alert alert-danger" id="divError"></div>
+                     <!-- End Form -->
+                    </div> <!-- End ubj-card-primary -->
+                </div> <!--- End col-10 col-md-8 col-lg-6 -->
+            </div> <!-- End row h-100 -->         
+            <br> 
+    </body>
+</html>
+
+
